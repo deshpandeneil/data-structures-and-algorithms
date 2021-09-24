@@ -1,0 +1,528 @@
+
+
+Menu
+
+1. Create tree from postfix expression
+2. Create tree from prefix expression
+3. Inorder (recursive)
+4. Postorder (recursive)
+5. Preorder (recursive)
+6. Inorder (non-recursive)
+7. Postorder (non-recursive)
+8. Preorder (non-recursive)
+9. Exit
+
+Enter the serial number of the operation you want to perform: 1
+Enter the postfix expression: abc*+
+
+
+Menu
+
+1. Create tree from postfix expression
+2. Create tree from prefix expression
+3. Inorder (recursive)
+4. Postorder (recursive)
+5. Preorder (recursive)
+6. Inorder (non-recursive)
+7. Postorder (non-recursive)
+8. Preorder (non-recursive)
+9. Exit
+
+Enter the serial number of the operation you want to perform: 3
+
+INORDER: a+b*c
+
+Menu
+
+1. Create tree from postfix expression
+2. Create tree from prefix expression
+3. Inorder (recursive)
+4. Postorder (recursive)
+5. Preorder (recursive)
+6. Inorder (non-recursive)
+7. Postorder (non-recursive)
+8. Preorder (non-recursive)
+9. Exit
+
+Enter the serial number of the operation you want to perform: 5
+
+PREORDER: +a*bc
+
+Menu
+
+1. Create tree from postfix expression
+2. Create tree from prefix expression
+3. Inorder (recursive)
+4. Postorder (recursive)
+5. Preorder (recursive)
+6. Inorder (non-recursive)
+7. Postorder (non-recursive)
+8. Preorder (non-recursive)
+9. Exit
+
+Enter the serial number of the operation you want to perform: 1
+Enter the postfix expression: ab*c-
+
+
+Menu
+
+1. Create tree from postfix expression
+2. Create tree from prefix expression
+3. Inorder (recursive)
+4. Postorder (recursive)
+5. Preorder (recursive)
+6. Inorder (non-recursive)
+7. Postorder (non-recursive)
+8. Preorder (non-recursive)
+9. Exit
+
+Enter the serial number of the operation you want to perform: 6
+
+INORDER: a*b-c
+
+Menu
+
+1. Create tree from postfix expression
+2. Create tree from prefix expression
+3. Inorder (recursive)
+4. Postorder (recursive)
+5. Preorder (recursive)
+6. Inorder (non-recursive)
+7. Postorder (non-recursive)
+8. Preorder (non-recursive)
+9. Exit
+
+Enter the serial number of the operation you want to perform: 8
+
+PREORDER: -*abc
+
+Menu
+
+1. Create tree from postfix expression
+2. Create tree from prefix expression
+3. Inorder (recursive)
+4. Postorder (recursive)
+5. Preorder (recursive)
+6. Inorder (non-recursive)
+7. Postorder (non-recursive)
+8. Preorder (non-recursive)
+9. Exit
+
+Enter the serial number of the operation you want to perform: 1
+Enter the postfix expression: ab^c-
+
+
+Menu
+
+1. Create tree from postfix expression
+2. Create tree from prefix expression
+3. Inorder (recursive)
+4. Postorder (recursive)
+5. Preorder (recursive)
+6. Inorder (non-recursive)
+7. Postorder (non-recursive)
+8. Preorder (non-recursive)
+9. Exit
+
+Enter the serial number of the operation you want to perform: 3
+
+INORDER: a^b-c
+
+Menu
+
+1. Create tree from postfix expression
+2. Create tree from prefix expression
+3. Inorder (recursive)
+4. Postorder (recursive)
+5. Preorder (recursive)
+6. Inorder (non-recursive)
+7. Postorder (non-recursive)
+8. Preorder (non-recursive)
+9. Exit
+
+Enter the serial number of the operation you want to perform: 5
+
+PREORDER: -^abc
+
+Menu
+
+1. Create tree from postfix expression
+2. Create tree from prefix expression
+3. Inorder (recursive)
+4. Postorder (recursive)
+5. Preorder (recursive)
+6. Inorder (non-recursive)
+7. Postorder (non-recursive)
+8. Preorder (non-recursive)
+9. Exit
+
+Enter the serial number of the operation you want to perform: 1
+Enter the postfix expression: abce^*+
+
+
+Menu
+
+1. Create tree from postfix expression
+2. Create tree from prefix expression
+3. Inorder (recursive)
+4. Postorder (recursive)
+5. Preorder (recursive)
+6. Inorder (non-recursive)
+7. Postorder (non-recursive)
+8. Preorder (non-recursive)
+9. Exit
+
+Enter the serial number of the operation you want to perform: 6
+
+INORDER: a+b*c^e
+
+Menu
+
+1. Create tree from postfix expression
+2. Create tree from prefix expression
+3. Inorder (recursive)
+4. Postorder (recursive)
+5. Preorder (recursive)
+6. Inorder (non-recursive)
+7. Postorder (non-recursive)
+8. Preorder (non-recursive)
+9. Exit
+
+Enter the serial number of the operation you want to perform: 8
+
+PREORDER: +a*b^ce
+
+Menu
+
+1. Create tree from postfix expression
+2. Create tree from prefix expression
+3. Inorder (recursive)
+4. Postorder (recursive)
+5. Preorder (recursive)
+6. Inorder (non-recursive)
+7. Postorder (non-recursive)
+8. Preorder (non-recursive)
+9. Exit
+
+Enter the serial number of the operation you want to perform: 2
+Enter the prefix expression: -+a*bca
+
+
+Menu
+
+1. Create tree from postfix expression
+2. Create tree from prefix expression
+3. Inorder (recursive)
+4. Postorder (recursive)
+5. Preorder (recursive)
+6. Inorder (non-recursive)
+7. Postorder (non-recursive)
+8. Preorder (non-recursive)
+9. Exit
+
+Enter the serial number of the operation you want to perform: 6
+
+INORDER: a+b*c-a
+
+Menu
+
+1. Create tree from postfix expression
+2. Create tree from prefix expression
+3. Inorder (recursive)
+4. Postorder (recursive)
+5. Preorder (recursive)
+6. Inorder (non-recursive)
+7. Postorder (non-recursive)
+8. Preorder (non-recursive)
+9. Exit
+
+Enter the serial number of the operation you want to perform: 7
+
+POSTORDER: abc*+a-
+
+
+Menu
+
+1. Create tree from postfix expression
+2. Create tree from prefix expression
+3. Inorder (recursive)
+4. Postorder (recursive)
+5. Preorder (recursive)
+6. Inorder (non-recursive)
+7. Postorder (non-recursive)
+8. Preorder (non-recursive)
+9. Exit
+
+Enter the serial number of the operation you want to perform: 1
+Enter the postfix expression: ab+cd+ef^^/df*-d-
+
+
+Menu
+
+1. Create tree from postfix expression
+2. Create tree from prefix expression
+3. Inorder (recursive)
+4. Postorder (recursive)
+5. Preorder (recursive)
+6. Inorder (non-recursive)
+7. Postorder (non-recursive)
+8. Preorder (non-recursive)
+9. Exit
+
+Enter the serial number of the operation you want to perform: 3
+
+INORDER: a+b/c+d^e^f-d*f-d
+
+Menu
+
+1. Create tree from postfix expression
+2. Create tree from prefix expression
+3. Inorder (recursive)
+4. Postorder (recursive)
+5. Preorder (recursive)
+6. Inorder (non-recursive)
+7. Postorder (non-recursive)
+8. Preorder (non-recursive)
+9. Exit
+
+Enter the serial number of the operation you want to perform: 5
+
+PREORDER: --/+ab^+cd^ef*dfd
+
+Menu
+
+1. Create tree from postfix expression
+2. Create tree from prefix expression
+3. Inorder (recursive)
+4. Postorder (recursive)
+5. Preorder (recursive)
+6. Inorder (non-recursive)
+7. Postorder (non-recursive)
+8. Preorder (non-recursive)
+9. Exit
+
+Enter the serial number of the operation you want to perform: 2
+Enter the prefix expression: --/+ab^+cd^ef*dfd
+
+
+Menu
+
+1. Create tree from postfix expression
+2. Create tree from prefix expression
+3. Inorder (recursive)
+4. Postorder (recursive)
+5. Preorder (recursive)
+6. Inorder (non-recursive)
+7. Postorder (non-recursive)
+8. Preorder (non-recursive)
+9. Exit
+
+Enter the serial number of the operation you want to perform: 6
+
+INORDER: a+b/c+d^e^f-d*f-d
+
+Menu
+
+1. Create tree from postfix expression
+2. Create tree from prefix expression
+3. Inorder (recursive)
+4. Postorder (recursive)
+5. Preorder (recursive)
+6. Inorder (non-recursive)
+7. Postorder (non-recursive)
+8. Preorder (non-recursive)
+9. Exit
+
+Enter the serial number of the operation you want to perform: 7
+
+POSTORDER: ab+cd+ef^^/df*-d-
+
+Menu
+
+1. Create tree from postfix expression
+2. Create tree from prefix expression
+3. Inorder (recursive)
+4. Postorder (recursive)
+5. Preorder (recursive)
+6. Inorder (non-recursive)
+7. Postorder (non-recursive)
+8. Preorder (non-recursive)
+9. Exit
+
+Enter the serial number of the operation you want to perform: 2
+Enter the prefix expression: ++abc
+
+
+Menu
+
+1. Create tree from postfix expression
+2. Create tree from prefix expression
+3. Inorder (recursive)
+4. Postorder (recursive)
+5. Preorder (recursive)
+6. Inorder (non-recursive)
+7. Postorder (non-recursive)
+8. Preorder (non-recursive)
+9. Exit
+
+Enter the serial number of the operation you want to perform: 3
+
+INORDER: a+b+c
+
+Menu
+
+1. Create tree from postfix expression
+2. Create tree from prefix expression
+3. Inorder (recursive)
+4. Postorder (recursive)
+5. Preorder (recursive)
+6. Inorder (non-recursive)
+7. Postorder (non-recursive)
+8. Preorder (non-recursive)
+9. Exit
+
+Enter the serial number of the operation you want to perform: 4
+
+POSTORDER: ab+c+
+
+Menu
+
+1. Create tree from postfix expression
+2. Create tree from prefix expression
+3. Inorder (recursive)
+4. Postorder (recursive)
+5. Preorder (recursive)
+6. Inorder (non-recursive)
+7. Postorder (non-recursive)
+8. Preorder (non-recursive)
+9. Exit
+
+Enter the serial number of the operation you want to perform: 2
+Enter the prefix expression: /*acb
+
+
+Menu
+
+1. Create tree from postfix expression
+2. Create tree from prefix expression
+3. Inorder (recursive)
+4. Postorder (recursive)
+5. Preorder (recursive)
+6. Inorder (non-recursive)
+7. Postorder (non-recursive)
+8. Preorder (non-recursive)
+9. Exit
+
+Enter the serial number of the operation you want to perform: 6
+
+INORDER: a*c/b
+
+Menu
+
+1. Create tree from postfix expression
+2. Create tree from prefix expression
+3. Inorder (recursive)
+4. Postorder (recursive)
+5. Preorder (recursive)
+6. Inorder (non-recursive)
+7. Postorder (non-recursive)
+8. Preorder (non-recursive)
+9. Exit
+
+Enter the serial number of the operation you want to perform: 7
+
+POSTORDER: ac*b/
+
+Menu
+
+1. Create tree from postfix expression
+2. Create tree from prefix expression
+3. Inorder (recursive)
+4. Postorder (recursive)
+5. Preorder (recursive)
+6. Inorder (non-recursive)
+7. Postorder (non-recursive)
+8. Preorder (non-recursive)
+9. Exit
+
+Enter the serial number of the operation you want to perform: 2
+Enter the prefix expression: ^a^bc
+
+
+Menu
+
+1. Create tree from postfix expression
+2. Create tree from prefix expression
+3. Inorder (recursive)
+4. Postorder (recursive)
+5. Preorder (recursive)
+6. Inorder (non-recursive)
+7. Postorder (non-recursive)
+8. Preorder (non-recursive)
+9. Exit
+
+Enter the serial number of the operation you want to perform: 3
+
+INORDER: a^b^c
+
+Menu
+
+1. Create tree from postfix expression
+2. Create tree from prefix expression
+3. Inorder (recursive)
+4. Postorder (recursive)
+5. Preorder (recursive)
+6. Inorder (non-recursive)
+7. Postorder (non-recursive)
+8. Preorder (non-recursive)
+9. Exit
+
+Enter the serial number of the operation you want to perform: 4
+
+POSTORDER: abc^^
+
+Menu
+
+1. Create tree from postfix expression
+2. Create tree from prefix expression
+3. Inorder (recursive)
+4. Postorder (recursive)
+5. Preorder (recursive)
+6. Inorder (non-recursive)
+7. Postorder (non-recursive)
+8. Preorder (non-recursive)
+9. Exit
+
+Enter the serial number of the operation you want to perform: 0
+
+
+Menu
+
+1. Create tree from postfix expression
+2. Create tree from prefix expression
+3. Inorder (recursive)
+4. Postorder (recursive)
+5. Preorder (recursive)
+6. Inorder (non-recursive)
+7. Postorder (non-recursive)
+8. Preorder (non-recursive)
+9. Exit
+
+Enter the serial number of the operation you want to perform: p
+
+Please enter an integer.
+
+
+Menu
+
+1. Create tree from postfix expression
+2. Create tree from prefix expression
+3. Inorder (recursive)
+4. Postorder (recursive)
+5. Preorder (recursive)
+6. Inorder (non-recursive)
+7. Postorder (non-recursive)
+8. Preorder (non-recursive)
+9. Exit
+
+Enter the serial number of the operation you want to perform: 

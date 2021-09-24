@@ -1,0 +1,1120 @@
+
+Enter the number of vertices	: 9
+
+Enter the number of edges: 14
+
+
+Enter name of vertex 0: 0
+
+Enter name of vertex 1: 1
+
+Enter name of vertex 2: 2
+
+Enter name of vertex 3: 3
+
+Enter name of vertex 4: 4
+
+Enter name of vertex 5: 5
+
+Enter name of vertex 6: 6
+
+Enter name of vertex 7: 7
+
+Enter name of vertex 8: 8
+
+
+MENU
+
+1. Create Adjacency MAtrix
+2. Display Graph Matrix
+3. Prims's Algorithm
+4. Kruskal's Algorithm
+5. Exit
+
+Enter your choice: 1
+
+Enter name of source vertex: 0
+
+Enter name of destination vertex: 1
+
+Enter weight of edge: 4
+
+Enter name of source vertex: 0
+
+Enter name of destination vertex: 7
+
+Enter weight of edge: 8
+
+Enter name of source vertex: 1
+
+Enter name of destination vertex: 7
+
+Enter weight of edge: 11
+
+Enter name of source vertex: 1
+
+Enter name of destination vertex: 2
+
+Enter weight of edge: 8
+
+Enter name of source vertex: 2
+
+Enter name of destination vertex: 8
+
+Enter weight of edge: 2
+
+Enter name of source vertex: 2
+
+Enter name of destination vertex: 5
+
+Enter weight of edge: 4
+
+Enter name of source vertex: 2
+
+Enter name of destination vertex: 3
+
+Enter weight of edge: 7
+
+Enter name of source vertex: 3
+
+Enter name of destination vertex: 5
+
+Enter weight of edge: 14
+
+Enter name of source vertex: 3
+
+Enter name of destination vertex: 4
+
+Enter weight of edge: 9
+
+Enter name of source vertex: 4
+
+Enter name of destination vertex: 5
+
+Enter weight of edge: 10
+
+Enter name of source vertex: 5
+
+Enter name of destination vertex: 6
+
+Enter weight of edge: 2
+
+Enter name of source vertex: 6
+
+Enter name of destination vertex: 8
+
+Enter weight of edge: 6
+
+Enter name of source vertex: 6
+
+Enter name of destination vertex: 7
+
+Enter weight of edge: 1
+
+Enter name of source vertex: 7
+
+Enter name of destination vertex: 8
+
+Enter weight of edge: 7
+
+
+MENU
+
+1. Create Adjacency MAtrix
+2. Display Graph Matrix
+3. Prims's Algorithm
+4. Kruskal's Algorithm
+5. Exit
+
+Enter your choice: 2
+
+
+GRAPH IS:
+
+	0	1	2	3	4	5	6	7	8
+=============================================
+0 | 	0	4	0	0	0	0	0	8	0
+1 | 	4	0	8	0	0	0	0	11	0
+2 | 	0	8	0	7	0	4	0	0	2
+3 | 	0	0	7	0	9	14	0	0	0
+4 | 	0	0	0	9	0	10	0	0	0
+5 | 	0	0	4	14	10	0	2	0	0
+6 | 	0	0	0	0	0	2	0	1	6
+7 | 	8	11	0	0	0	0	1	0	7
+8 | 	0	0	2	0	0	0	6	7	0
+
+
+MENU
+
+1. Create Adjacency MAtrix
+2. Display Graph Matrix
+3. Prims's Algorithm
+4. Kruskal's Algorithm
+5. Exit
+
+Enter your choice: 3
+
+Enter the node at which you want to start: 0
+
+Initializing utility arrays and variables...
+
+Current Node: 0
+Total nodes visited: 1
+Visiting all nodes
+
+Currently at node: 0
+
+Checking if its already visited...
+Currently at node: 1
+
+Checking if its already visited...
+It has not been visited before
+
+Comparing cost...
+Currently at node: 2
+
+Checking if its already visited...
+Currently at node: 3
+
+Checking if its already visited...
+Currently at node: 4
+
+Checking if its already visited...
+Currently at node: 5
+
+Checking if its already visited...
+Currently at node: 6
+
+Checking if its already visited...
+Currently at node: 7
+
+Checking if its already visited...
+It has not been visited before
+
+Comparing cost...
+Currently at node: 8
+
+Checking if its already visited...
+Total nodes visited: 2
+Visiting all nodes
+
+Currently at node: 0
+
+Checking if its already visited...
+Currently at node: 1
+
+Checking if its already visited...
+Currently at node: 2
+
+Checking if its already visited...
+It has not been visited before
+
+Comparing cost...
+Currently at node: 3
+
+Checking if its already visited...
+Currently at node: 4
+
+Checking if its already visited...
+Currently at node: 5
+
+Checking if its already visited...
+Currently at node: 6
+
+Checking if its already visited...
+Currently at node: 7
+
+Checking if its already visited...
+It has not been visited before
+
+Comparing cost...
+Currently at node: 8
+
+Checking if its already visited...
+Total nodes visited: 3
+Visiting all nodes
+
+Currently at node: 0
+
+Checking if its already visited...
+Currently at node: 1
+
+Checking if its already visited...
+Currently at node: 2
+
+Checking if its already visited...
+Currently at node: 3
+
+Checking if its already visited...
+Currently at node: 4
+
+Checking if its already visited...
+Currently at node: 5
+
+Checking if its already visited...
+Currently at node: 6
+
+Checking if its already visited...
+It has not been visited before
+
+Comparing cost...
+Currently at node: 7
+
+Checking if its already visited...
+Currently at node: 8
+
+Checking if its already visited...
+It has not been visited before
+
+Comparing cost...
+Total nodes visited: 4
+Visiting all nodes
+
+Currently at node: 0
+
+Checking if its already visited...
+Currently at node: 1
+
+Checking if its already visited...
+Currently at node: 2
+
+Checking if its already visited...
+Currently at node: 3
+
+Checking if its already visited...
+Currently at node: 4
+
+Checking if its already visited...
+Currently at node: 5
+
+Checking if its already visited...
+It has not been visited before
+
+Comparing cost...
+Currently at node: 6
+
+Checking if its already visited...
+Currently at node: 7
+
+Checking if its already visited...
+Currently at node: 8
+
+Checking if its already visited...
+It has not been visited before
+
+Comparing cost...
+Total nodes visited: 5
+Visiting all nodes
+
+Currently at node: 0
+
+Checking if its already visited...
+Currently at node: 1
+
+Checking if its already visited...
+Currently at node: 2
+
+Checking if its already visited...
+It has not been visited before
+
+Comparing cost...
+Currently at node: 3
+
+Checking if its already visited...
+It has not been visited before
+
+Comparing cost...
+Currently at node: 4
+
+Checking if its already visited...
+It has not been visited before
+
+Comparing cost...
+Currently at node: 5
+
+Checking if its already visited...
+Currently at node: 6
+
+Checking if its already visited...
+Currently at node: 7
+
+Checking if its already visited...
+Currently at node: 8
+
+Checking if its already visited...
+Total nodes visited: 6
+Visiting all nodes
+
+Currently at node: 0
+
+Checking if its already visited...
+Currently at node: 1
+
+Checking if its already visited...
+Currently at node: 2
+
+Checking if its already visited...
+Currently at node: 3
+
+Checking if its already visited...
+It has not been visited before
+
+Comparing cost...
+Currently at node: 4
+
+Checking if its already visited...
+Currently at node: 5
+
+Checking if its already visited...
+Currently at node: 6
+
+Checking if its already visited...
+Currently at node: 7
+
+Checking if its already visited...
+Currently at node: 8
+
+Checking if its already visited...
+It has not been visited before
+
+Comparing cost...
+Total nodes visited: 7
+Visiting all nodes
+
+Currently at node: 0
+
+Checking if its already visited...
+Currently at node: 1
+
+Checking if its already visited...
+Currently at node: 2
+
+Checking if its already visited...
+Currently at node: 3
+
+Checking if its already visited...
+Currently at node: 4
+
+Checking if its already visited...
+Currently at node: 5
+
+Checking if its already visited...
+Currently at node: 6
+
+Checking if its already visited...
+Currently at node: 7
+
+Checking if its already visited...
+Currently at node: 8
+
+Checking if its already visited...
+Total nodes visited: 8
+Visiting all nodes
+
+Currently at node: 0
+
+Checking if its already visited...
+Currently at node: 1
+
+Checking if its already visited...
+Currently at node: 2
+
+Checking if its already visited...
+Currently at node: 3
+
+Checking if its already visited...
+Currently at node: 4
+
+Checking if its already visited...
+It has not been visited before
+
+Comparing cost...
+Currently at node: 5
+
+Checking if its already visited...
+Currently at node: 6
+
+Checking if its already visited...
+Currently at node: 7
+
+Checking if its already visited...
+Currently at node: 8
+
+Checking if its already visited...
+
+Vertex		Previous		Cost
+
+
+0 		 0		2147483647
+1 		 0		4
+2 		 5		4
+3 		 2		7
+4 		 3		9
+5 		 6		2
+6 		 7		1
+7 		 0		8
+8 		 2		2
+
+Minimum cost is: 37
+
+MENU
+
+1. Create Adjacency MAtrix
+2. Display Graph Matrix
+3. Prims's Algorithm
+4. Kruskal's Algorithm
+5. Exit
+
+Enter your choice: 3
+
+Enter the node at which you want to start: 1
+
+Initializing utility arrays and variables...
+
+Current Node: 1
+Total nodes visited: 1
+Visiting all nodes
+
+Currently at node: 0
+
+Checking if its already visited...
+It has not been visited before
+
+Comparing cost...
+Currently at node: 1
+
+Checking if its already visited...
+Currently at node: 2
+
+Checking if its already visited...
+It has not been visited before
+
+Comparing cost...
+Currently at node: 3
+
+Checking if its already visited...
+Currently at node: 4
+
+Checking if its already visited...
+Currently at node: 5
+
+Checking if its already visited...
+Currently at node: 6
+
+Checking if its already visited...
+Currently at node: 7
+
+Checking if its already visited...
+It has not been visited before
+
+Comparing cost...
+Currently at node: 8
+
+Checking if its already visited...
+Total nodes visited: 2
+Visiting all nodes
+
+Currently at node: 0
+
+Checking if its already visited...
+Currently at node: 1
+
+Checking if its already visited...
+Currently at node: 2
+
+Checking if its already visited...
+Currently at node: 3
+
+Checking if its already visited...
+Currently at node: 4
+
+Checking if its already visited...
+Currently at node: 5
+
+Checking if its already visited...
+Currently at node: 6
+
+Checking if its already visited...
+Currently at node: 7
+
+Checking if its already visited...
+It has not been visited before
+
+Comparing cost...
+Currently at node: 8
+
+Checking if its already visited...
+Total nodes visited: 3
+Visiting all nodes
+
+Currently at node: 0
+
+Checking if its already visited...
+Currently at node: 1
+
+Checking if its already visited...
+Currently at node: 2
+
+Checking if its already visited...
+Currently at node: 3
+
+Checking if its already visited...
+Currently at node: 4
+
+Checking if its already visited...
+Currently at node: 5
+
+Checking if its already visited...
+Currently at node: 6
+
+Checking if its already visited...
+It has not been visited before
+
+Comparing cost...
+Currently at node: 7
+
+Checking if its already visited...
+Currently at node: 8
+
+Checking if its already visited...
+It has not been visited before
+
+Comparing cost...
+Total nodes visited: 4
+Visiting all nodes
+
+Currently at node: 0
+
+Checking if its already visited...
+Currently at node: 1
+
+Checking if its already visited...
+Currently at node: 2
+
+Checking if its already visited...
+Currently at node: 3
+
+Checking if its already visited...
+Currently at node: 4
+
+Checking if its already visited...
+Currently at node: 5
+
+Checking if its already visited...
+It has not been visited before
+
+Comparing cost...
+Currently at node: 6
+
+Checking if its already visited...
+Currently at node: 7
+
+Checking if its already visited...
+Currently at node: 8
+
+Checking if its already visited...
+It has not been visited before
+
+Comparing cost...
+Total nodes visited: 5
+Visiting all nodes
+
+Currently at node: 0
+
+Checking if its already visited...
+Currently at node: 1
+
+Checking if its already visited...
+Currently at node: 2
+
+Checking if its already visited...
+It has not been visited before
+
+Comparing cost...
+Currently at node: 3
+
+Checking if its already visited...
+It has not been visited before
+
+Comparing cost...
+Currently at node: 4
+
+Checking if its already visited...
+It has not been visited before
+
+Comparing cost...
+Currently at node: 5
+
+Checking if its already visited...
+Currently at node: 6
+
+Checking if its already visited...
+Currently at node: 7
+
+Checking if its already visited...
+Currently at node: 8
+
+Checking if its already visited...
+Total nodes visited: 6
+Visiting all nodes
+
+Currently at node: 0
+
+Checking if its already visited...
+Currently at node: 1
+
+Checking if its already visited...
+Currently at node: 2
+
+Checking if its already visited...
+Currently at node: 3
+
+Checking if its already visited...
+It has not been visited before
+
+Comparing cost...
+Currently at node: 4
+
+Checking if its already visited...
+Currently at node: 5
+
+Checking if its already visited...
+Currently at node: 6
+
+Checking if its already visited...
+Currently at node: 7
+
+Checking if its already visited...
+Currently at node: 8
+
+Checking if its already visited...
+It has not been visited before
+
+Comparing cost...
+Total nodes visited: 7
+Visiting all nodes
+
+Currently at node: 0
+
+Checking if its already visited...
+Currently at node: 1
+
+Checking if its already visited...
+Currently at node: 2
+
+Checking if its already visited...
+Currently at node: 3
+
+Checking if its already visited...
+Currently at node: 4
+
+Checking if its already visited...
+Currently at node: 5
+
+Checking if its already visited...
+Currently at node: 6
+
+Checking if its already visited...
+Currently at node: 7
+
+Checking if its already visited...
+Currently at node: 8
+
+Checking if its already visited...
+Total nodes visited: 8
+Visiting all nodes
+
+Currently at node: 0
+
+Checking if its already visited...
+Currently at node: 1
+
+Checking if its already visited...
+Currently at node: 2
+
+Checking if its already visited...
+Currently at node: 3
+
+Checking if its already visited...
+Currently at node: 4
+
+Checking if its already visited...
+It has not been visited before
+
+Comparing cost...
+Currently at node: 5
+
+Checking if its already visited...
+Currently at node: 6
+
+Checking if its already visited...
+Currently at node: 7
+
+Checking if its already visited...
+Currently at node: 8
+
+Checking if its already visited...
+
+Vertex		Previous		Cost
+
+
+0 		 1		4
+1 		 0		2147483647
+2 		 5		4
+3 		 2		7
+4 		 3		9
+5 		 6		2
+6 		 7		1
+7 		 0		8
+8 		 2		2
+
+Minimum cost is: 37
+
+MENU
+
+1. Create Adjacency MAtrix
+2. Display Graph Matrix
+3. Prims's Algorithm
+4. Kruskal's Algorithm
+5. Exit
+
+Enter your choice: 3
+
+Enter the node at which you want to start: 2
+
+Initializing utility arrays and variables...
+
+Current Node: 2
+Total nodes visited: 1
+Visiting all nodes
+
+Currently at node: 0
+
+Checking if its already visited...
+Currently at node: 1
+
+Checking if its already visited...
+It has not been visited before
+
+Comparing cost...
+Currently at node: 2
+
+Checking if its already visited...
+Currently at node: 3
+
+Checking if its already visited...
+It has not been visited before
+
+Comparing cost...
+Currently at node: 4
+
+Checking if its already visited...
+Currently at node: 5
+
+Checking if its already visited...
+It has not been visited before
+
+Comparing cost...
+Currently at node: 6
+
+Checking if its already visited...
+Currently at node: 7
+
+Checking if its already visited...
+Currently at node: 8
+
+Checking if its already visited...
+It has not been visited before
+
+Comparing cost...
+Total nodes visited: 2
+Visiting all nodes
+
+Currently at node: 0
+
+Checking if its already visited...
+Currently at node: 1
+
+Checking if its already visited...
+Currently at node: 2
+
+Checking if its already visited...
+Currently at node: 3
+
+Checking if its already visited...
+Currently at node: 4
+
+Checking if its already visited...
+Currently at node: 5
+
+Checking if its already visited...
+Currently at node: 6
+
+Checking if its already visited...
+It has not been visited before
+
+Comparing cost...
+Currently at node: 7
+
+Checking if its already visited...
+It has not been visited before
+
+Comparing cost...
+Currently at node: 8
+
+Checking if its already visited...
+Total nodes visited: 3
+Visiting all nodes
+
+Currently at node: 0
+
+Checking if its already visited...
+Currently at node: 1
+
+Checking if its already visited...
+Currently at node: 2
+
+Checking if its already visited...
+Currently at node: 3
+
+Checking if its already visited...
+It has not been visited before
+
+Comparing cost...
+Currently at node: 4
+
+Checking if its already visited...
+It has not been visited before
+
+Comparing cost...
+Currently at node: 5
+
+Checking if its already visited...
+Currently at node: 6
+
+Checking if its already visited...
+It has not been visited before
+
+Comparing cost...
+Currently at node: 7
+
+Checking if its already visited...
+Currently at node: 8
+
+Checking if its already visited...
+Total nodes visited: 4
+Visiting all nodes
+
+Currently at node: 0
+
+Checking if its already visited...
+Currently at node: 1
+
+Checking if its already visited...
+Currently at node: 2
+
+Checking if its already visited...
+Currently at node: 3
+
+Checking if its already visited...
+Currently at node: 4
+
+Checking if its already visited...
+Currently at node: 5
+
+Checking if its already visited...
+Currently at node: 6
+
+Checking if its already visited...
+Currently at node: 7
+
+Checking if its already visited...
+It has not been visited before
+
+Comparing cost...
+Currently at node: 8
+
+Checking if its already visited...
+Total nodes visited: 5
+Visiting all nodes
+
+Currently at node: 0
+
+Checking if its already visited...
+It has not been visited before
+
+Comparing cost...
+Currently at node: 1
+
+Checking if its already visited...
+It has not been visited before
+
+Comparing cost...
+Currently at node: 2
+
+Checking if its already visited...
+Currently at node: 3
+
+Checking if its already visited...
+Currently at node: 4
+
+Checking if its already visited...
+Currently at node: 5
+
+Checking if its already visited...
+Currently at node: 6
+
+Checking if its already visited...
+Currently at node: 7
+
+Checking if its already visited...
+Currently at node: 8
+
+Checking if its already visited...
+Total nodes visited: 6
+Visiting all nodes
+
+Currently at node: 0
+
+Checking if its already visited...
+Currently at node: 1
+
+Checking if its already visited...
+Currently at node: 2
+
+Checking if its already visited...
+Currently at node: 3
+
+Checking if its already visited...
+Currently at node: 4
+
+Checking if its already visited...
+It has not been visited before
+
+Comparing cost...
+Currently at node: 5
+
+Checking if its already visited...
+Currently at node: 6
+
+Checking if its already visited...
+Currently at node: 7
+
+Checking if its already visited...
+Currently at node: 8
+
+Checking if its already visited...
+Total nodes visited: 7
+Visiting all nodes
+
+Currently at node: 0
+
+Checking if its already visited...
+It has not been visited before
+
+Comparing cost...
+Currently at node: 1
+
+Checking if its already visited...
+Currently at node: 2
+
+Checking if its already visited...
+Currently at node: 3
+
+Checking if its already visited...
+Currently at node: 4
+
+Checking if its already visited...
+Currently at node: 5
+
+Checking if its already visited...
+Currently at node: 6
+
+Checking if its already visited...
+Currently at node: 7
+
+Checking if its already visited...
+Currently at node: 8
+
+Checking if its already visited...
+Total nodes visited: 8
+Visiting all nodes
+
+Currently at node: 0
+
+Checking if its already visited...
+Currently at node: 1
+
+Checking if its already visited...
+Currently at node: 2
+
+Checking if its already visited...
+Currently at node: 3
+
+Checking if its already visited...
+Currently at node: 4
+
+Checking if its already visited...
+Currently at node: 5
+
+Checking if its already visited...
+Currently at node: 6
+
+Checking if its already visited...
+Currently at node: 7
+
+Checking if its already visited...
+Currently at node: 8
+
+Checking if its already visited...
+
+Vertex		Previous		Cost
+
+
+0 		 1		4
+1 		 2		8
+2 		 0		2147483647
+3 		 2		7
+4 		 3		9
+5 		 2		4
+6 		 5		2
+7 		 6		1
+8 		 2		2
+
+Minimum cost is: 37
+
+MENU
+
+1. Create Adjacency MAtrix
+2. Display Graph Matrix
+3. Prims's Algorithm
+4. Kruskal's Algorithm
+5. Exit
+
+Enter your choice: 4
+
+
+EDGES IN MST
+
+Sr.No.		Source		Destination		Weight
+
+0		6		7		1
+1		2		8		2
+2		5		6		2
+3		0		1		4
+4		2		5		4
+5		2		3		7
+6		0		7		8
+7		3		4		9
+
+Minimum cost = 37
+
+MENU
+
+1. Create Adjacency MAtrix
+2. Display Graph Matrix
+3. Prims's Algorithm
+4. Kruskal's Algorithm
+5. Exit
+
+Enter your choice: 5

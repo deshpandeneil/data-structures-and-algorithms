@@ -1,0 +1,511 @@
+
+
+Printer Menu
+
+1. Queue new page for printing
+2. Print a page from queue
+3. Display printer queue
+4. Exit System
+
+Enter the option you want to do: a
+
+Please enter correct serial number.
+
+Enter the option you want to do: -1
+
+Please enter correct serial number.
+
+Enter the option you want to do: 3
+
+Queue is empty.
+
+Front = -1
+End = -1
+
+Printer Menu
+
+1. Queue new page for printing
+2. Print a page from queue
+3. Display printer queue
+4. Exit System
+
+Enter the option you want to do: 1
+
+
+Enter page number you want to print: 1
+
+Enter page header: header 1
+
+Enter page content: this is a printer queue
+
+Enter page footer: thank you
+
+Insertion successful.
+
+Front = 0
+End = 0
+Counter = 1
+
+Printer Menu
+
+1. Queue new page for printing
+2. Print a page from queue
+3. Display printer queue
+4. Exit System
+
+Enter the option you want to do: 1
+
+
+Enter page number you want to print: a
+
+Please enter a number.
+
+Enter page number you want to print: -1
+
+Please enter a number.
+
+Enter page number you want to print: 2
+
+Enter page header: header 2
+
+Enter page content: this is the second page in queue
+
+Enter page footer: thank you
+
+Insertion successful.
+
+Front = 0
+End = 1
+Counter = 2
+
+Printer Menu
+
+1. Queue new page for printing
+2. Print a page from queue
+3. Display printer queue
+4. Exit System
+
+Enter the option you want to do: 3
+
+Queue is (page numbers):
+
+Page Number		Page Header				Size
+
+1		          header 1                		156
+2			header 2				156
+
+Front = 0
+End = 1
+Counter = 2
+
+Printer Menu
+
+1. Queue new page for printing
+2. Print a page from queue
+3. Display printer queue
+4. Exit System
+
+Enter the option you want to do: 2
+
+Printing...
+
+-----------------------------------------------------------------
+|		          header 1              		|
+|                                                               |
+|                                                               |
+|                                                               |
+|                                                               |
+|                                                               |
+|                                                               |
+|                                                               |
+|                                                               |
+|                                                               |
+|		this is a printer queue              		|
+|                                                               |
+|                                                               |
+|                                                               |
+|                                                               |
+|                                                               |
+|                                                               |
+|                                                               |
+|                                                               |
+|                                                               |
+|		         thank you              		|
+|                                                               |
+-----------------------------------------------------------------
+
+Page has been printed successfully
+
+
+Front = 1
+End = 1
+Counter = 1
+
+Printer Menu
+
+1. Queue new page for printing
+2. Print a page from queue
+3. Display printer queue
+4. Exit System
+
+Enter the option you want to do: 1
+
+
+Enter page number you want to print: 3
+
+Enter page header: header 3
+
+Enter page content: content 3
+
+Enter page footer: footer 3
+
+Insertion successful.
+
+Front = 1
+End = 2
+Counter = 2
+
+Printer Menu
+
+1. Queue new page for printing
+2. Print a page from queue
+3. Display printer queue
+4. Exit System
+
+Enter the option you want to do: 1
+
+
+Enter page number you want to print: 4
+
+Enter page header: header 4
+
+Enter page content: content 4
+
+Enter page footer: footer 4
+
+Insertion successful.
+
+Front = 1
+End = 3
+Counter = 3
+
+Printer Menu
+
+1. Queue new page for printing
+2. Print a page from queue
+3. Display printer queue
+4. Exit System
+
+Enter the option you want to do: 1
+
+
+Enter page number you want to print: 5
+
+Enter page header: header 5
+
+Enter page content: content 5
+
+Enter page footer: footer 5
+
+Insertion successful.
+
+Front = 1
+End = 4
+Counter = 4
+
+Printer Menu
+
+1. Queue new page for printing
+2. Print a page from queue
+3. Display printer queue
+4. Exit System
+
+Enter the option you want to do: 1
+
+
+Enter page number you want to print: 6
+
+Enter page header: header 6
+
+Enter page content: contetneerqrqer
+
+Enter page footer: footer 6
+
+Insertion successful.
+
+Front = 1
+End = 0
+Counter = 5
+
+Printer Menu
+
+1. Queue new page for printing
+2. Print a page from queue
+3. Display printer queue
+4. Exit System
+
+Enter the option you want to do: 1
+
+Overflow. Cannot insert any more entries.
+
+Printer Menu
+
+1. Queue new page for printing
+2. Print a page from queue
+3. Display printer queue
+4. Exit System
+
+Enter the option you want to do: 3
+
+Queue is (page numbers):
+
+Page Number		Page Header				Size
+
+2		          header 2                		156
+3		          header 3                		156
+4		          header 4                		156
+5		          header 5                		156
+6			header 6				156
+
+Front = 1
+End = 0
+Counter = 5
+
+Printer Menu
+
+1. Queue new page for printing
+2. Print a page from queue
+3. Display printer queue
+4. Exit System
+
+Enter the option you want to do: 2
+
+Printing...
+
+-----------------------------------------------------------------
+|		          header 2              		|
+|                                                               |
+|                                                               |
+|                                                               |
+|                                                               |
+|                                                               |
+|                                                               |
+|                                                               |
+|                                                               |
+|                                                               |
+|		this is the second page in queue              		|
+|                                                               |
+|                                                               |
+|                                                               |
+|                                                               |
+|                                                               |
+|                                                               |
+|                                                               |
+|                                                               |
+|                                                               |
+|		         thank you              		|
+|                                                               |
+-----------------------------------------------------------------
+
+Page has been printed successfully
+
+
+Front = 2
+End = 0
+Counter = 4
+
+Printer Menu
+
+1. Queue new page for printing
+2. Print a page from queue
+3. Display printer queue
+4. Exit System
+
+Enter the option you want to do: 2
+
+Printing...
+
+-----------------------------------------------------------------
+|		          header 3              		|
+|                                                               |
+|                                                               |
+|                                                               |
+|                                                               |
+|                                                               |
+|                                                               |
+|                                                               |
+|                                                               |
+|                                                               |
+|		         content 3              		|
+|                                                               |
+|                                                               |
+|                                                               |
+|                                                               |
+|                                                               |
+|                                                               |
+|                                                               |
+|                                                               |
+|                                                               |
+|		          footer 3              		|
+|                                                               |
+-----------------------------------------------------------------
+
+Page has been printed successfully
+
+
+Front = 3
+End = 0
+Counter = 3
+
+Printer Menu
+
+1. Queue new page for printing
+2. Print a page from queue
+3. Display printer queue
+4. Exit System
+
+Enter the option you want to do: 2
+
+Printing...
+
+-----------------------------------------------------------------
+|		          header 4              		|
+|                                                               |
+|                                                               |
+|                                                               |
+|                                                               |
+|                                                               |
+|                                                               |
+|                                                               |
+|                                                               |
+|                                                               |
+|		         content 4              		|
+|                                                               |
+|                                                               |
+|                                                               |
+|                                                               |
+|                                                               |
+|                                                               |
+|                                                               |
+|                                                               |
+|                                                               |
+|		          footer 4              		|
+|                                                               |
+-----------------------------------------------------------------
+
+Page has been printed successfully
+
+
+Front = 4
+End = 0
+Counter = 2
+
+Printer Menu
+
+1. Queue new page for printing
+2. Print a page from queue
+3. Display printer queue
+4. Exit System
+
+Enter the option you want to do: 2
+
+Printing...
+
+-----------------------------------------------------------------
+|		          header 5              		|
+|                                                               |
+|                                                               |
+|                                                               |
+|                                                               |
+|                                                               |
+|                                                               |
+|                                                               |
+|                                                               |
+|                                                               |
+|		         content 5              		|
+|                                                               |
+|                                                               |
+|                                                               |
+|                                                               |
+|                                                               |
+|                                                               |
+|                                                               |
+|                                                               |
+|                                                               |
+|		          footer 5              		|
+|                                                               |
+-----------------------------------------------------------------
+
+Page has been printed successfully
+
+
+Front = 0
+End = 0
+Counter = 1
+
+Printer Menu
+
+1. Queue new page for printing
+2. Print a page from queue
+3. Display printer queue
+4. Exit System
+
+Enter the option you want to do: 2
+
+Printing...
+
+-----------------------------------------------------------------
+|		          header 6              		|
+|                                                               |
+|                                                               |
+|                                                               |
+|                                                               |
+|                                                               |
+|                                                               |
+|                                                               |
+|                                                               |
+|                                                               |
+|		   contetneerqrqer              		|
+|                                                               |
+|                                                               |
+|                                                               |
+|                                                               |
+|                                                               |
+|                                                               |
+|                                                               |
+|                                                               |
+|                                                               |
+|		          footer 6              		|
+|                                                               |
+-----------------------------------------------------------------
+
+Page has been printed successfully
+
+
+Front = -1
+End = 0
+Counter = 0
+
+Printer Menu
+
+1. Queue new page for printing
+2. Print a page from queue
+3. Display printer queue
+4. Exit System
+
+Enter the option you want to do: 2
+
+Printing...
+
+Underflow. Cannot delete any more elements.
+
+Printer Menu
+
+1. Queue new page for printing
+2. Print a page from queue
+3. Display printer queue
+4. Exit System
+
+Enter the option you want to do: 4
+
+Thank you for using our system

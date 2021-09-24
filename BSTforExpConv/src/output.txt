@@ -1,0 +1,149 @@
+
+
+MENU
+
+1. Enter Preorder and Postorder expressions
+2. Display Preorder and Postorder expressions
+3. Construct BST from Preorder and Postorder expressions
+4. Display BST in inorder
+5. Exit
+
+Enter your choice: a
+
+PLease enter correct data type
+
+
+MENU
+
+1. Enter Preorder and Postorder expressions
+2. Display Preorder and Postorder expressions
+3. Construct BST from Preorder and Postorder expressions
+4. Display BST in inorder
+5. Exit
+
+Enter your choice: 2
+
+Please enter expressions first
+
+
+MENU
+
+1. Enter Preorder and Postorder expressions
+2. Display Preorder and Postorder expressions
+3. Construct BST from Preorder and Postorder expressions
+4. Display BST in inorder
+5. Exit
+
+Enter your choice: 3
+
+Please enter expressions first
+
+
+MENU
+
+1. Enter Preorder and Postorder expressions
+2. Display Preorder and Postorder expressions
+3. Construct BST from Preorder and Postorder expressions
+4. Display BST in inorder
+5. Exit
+
+Enter your choice: 4
+
+
+INORDER
+
+
+
+MENU
+
+1. Enter Preorder and Postorder expressions
+2. Display Preorder and Postorder expressions
+3. Construct BST from Preorder and Postorder expressions
+4. Display BST in inorder
+5. Exit
+
+Enter your choice: 1
+
+Enter number of nodes in BST: a
+
+Please enter +ve integer: 7
+
+
+ENTER PREORDER
+
+Enter preorder node 1: 1
+Enter preorder node 2: 2
+Enter preorder node 3: 4
+Enter preorder node 4: 5
+Enter preorder node 5: 3
+Enter preorder node 6: 6
+Enter preorder node 7: 7
+
+
+ENTER POSTORDER
+
+Enter postorder node 1: 4
+Enter postorder node 2: 5
+Enter postorder node 3: 2
+Enter postorder node 4: 6
+Enter postorder node 5: 7
+Enter postorder node 6: 3
+Enter postorder node 7: 1
+
+
+MENU
+
+1. Enter Preorder and Postorder expressions
+2. Display Preorder and Postorder expressions
+3. Construct BST from Preorder and Postorder expressions
+4. Display BST in inorder
+5. Exit
+
+Enter your choice: 2
+
+
+PREORDER
+
+1 - 2 - 4 - 5 - 3 - 6 - 7 - 
+
+ENTER POSTORDER
+
+4 - 5 - 2 - 6 - 7 - 3 - 1 - 
+
+MENU
+
+1. Enter Preorder and Postorder expressions
+2. Display Preorder and Postorder expressions
+3. Construct BST from Preorder and Postorder expressions
+4. Display BST in inorder
+5. Exit
+
+Enter your choice: 3
+
+Tree has been constructed!
+
+
+MENU
+
+1. Enter Preorder and Postorder expressions
+2. Display Preorder and Postorder expressions
+3. Construct BST from Preorder and Postorder expressions
+4. Display BST in inorder
+5. Exit
+
+Enter your choice: 4
+
+
+INORDER
+
+4 -> 2 -> 5 -> 1 -> 6 -> 3 -> 7 -> 
+
+MENU
+
+1. Enter Preorder and Postorder expressions
+2. Display Preorder and Postorder expressions
+3. Construct BST from Preorder and Postorder expressions
+4. Display BST in inorder
+5. Exit
+
+Enter your choice: 5

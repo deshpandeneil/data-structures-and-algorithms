@@ -1,0 +1,1509 @@
+
+Expression Conversion Menu
+
+1. Infix to Postfix
+2. Infix to Prefix
+3. Evaluate Postfix Expression
+4. Evaluate Prefix Expression
+5. Exit System
+
+Enter the option you want to do: 1
+Enter the infix expression: A+B*C
+
+CONVERTING INFIX TO POSTFIX...
+
+Push successful.
+
+Stack is:
+
+ | + | 
+
+
+Push successful.
+
+Stack is:
+
+ | * | 
+ | + | 
+
+
+Pop successful.
+
+Stack is:
+
+ | + | 
+
+
+Pop successful.
+
+Stack is empty.
+
+THE POSTFIX EXPRESSION IS: A B C * +
+
+Expression Conversion Menu
+
+1. Infix to Postfix
+2. Infix to Prefix
+3. Evaluate Postfix Expression
+4. Evaluate Prefix Expression
+5. Exit System
+
+Enter the option you want to do: 1
+Enter the infix expression: A*B-C
+
+CONVERTING INFIX TO POSTFIX...
+
+Push successful.
+
+Stack is:
+
+ | * | 
+
+
+Pop successful.
+
+Stack is empty.
+
+Push successful.
+
+Stack is:
+
+ | - | 
+
+
+Pop successful.
+
+Stack is empty.
+
+THE POSTFIX EXPRESSION IS: A B * C -
+
+Expression Conversion Menu
+
+1. Infix to Postfix
+2. Infix to Prefix
+3. Evaluate Postfix Expression
+4. Evaluate Prefix Expression
+5. Exit System
+
+Enter the option you want to do: 1
+Enter the infix expression: A^B-C
+
+CONVERTING INFIX TO POSTFIX...
+
+Push successful.
+
+Stack is:
+
+ | ^ | 
+
+
+Pop successful.
+
+Stack is empty.
+
+Push successful.
+
+Stack is:
+
+ | - | 
+
+
+Pop successful.
+
+Stack is empty.
+
+THE POSTFIX EXPRESSION IS: A B ^ C -
+
+Expression Conversion Menu
+
+1. Infix to Postfix
+2. Infix to Prefix
+3. Evaluate Postfix Expression
+4. Evaluate Prefix Expression
+5. Exit System
+
+Enter the option you want to do: 1
+Enter the infix expression: A+B*C^E
+
+CONVERTING INFIX TO POSTFIX...
+
+Push successful.
+
+Stack is:
+
+ | + | 
+
+
+Push successful.
+
+Stack is:
+
+ | * | 
+ | + | 
+
+
+Push successful.
+
+Stack is:
+
+ | ^ | 
+ | * | 
+ | + | 
+
+
+Pop successful.
+
+Stack is:
+
+ | * | 
+ | + | 
+
+
+Pop successful.
+
+Stack is:
+
+ | + | 
+
+
+Pop successful.
+
+Stack is empty.
+
+THE POSTFIX EXPRESSION IS: A B C E ^ * +
+
+Expression Conversion Menu
+
+1. Infix to Postfix
+2. Infix to Prefix
+3. Evaluate Postfix Expression
+4. Evaluate Prefix Expression
+5. Exit System
+
+Enter the option you want to do: 1
+Enter the infix expression: A-B*C+A
+
+CONVERTING INFIX TO POSTFIX...
+
+Push successful.
+
+Stack is:
+
+ | - | 
+
+
+Push successful.
+
+Stack is:
+
+ | * | 
+ | - | 
+
+
+Pop successful.
+
+Stack is:
+
+ | - | 
+
+
+Pop successful.
+
+Stack is empty.
+
+Push successful.
+
+Stack is:
+
+ | + | 
+
+
+Pop successful.
+
+Stack is empty.
+
+THE POSTFIX EXPRESSION IS: A B C * - A +
+
+Expression Conversion Menu
+
+1. Infix to Postfix
+2. Infix to Prefix
+3. Evaluate Postfix Expression
+4. Evaluate Prefix Expression
+5. Exit System
+
+Enter the option you want to do: 1
+Enter the infix expression: (A+B)/(C+D)^E^F-D*F-D
+
+CONVERTING INFIX TO POSTFIX...
+
+Push successful.
+
+Stack is:
+
+ | ( | 
+
+
+Push successful.
+
+Stack is:
+
+ | + | 
+ | ( | 
+
+
+Pop successful.
+
+Stack is:
+
+ | ( | 
+
+
+Pop successful.
+
+Stack is empty.
+
+Push successful.
+
+Stack is:
+
+ | / | 
+
+
+Push successful.
+
+Stack is:
+
+ | ( | 
+ | / | 
+
+
+Push successful.
+
+Stack is:
+
+ | + | 
+ | ( | 
+ | / | 
+
+
+Pop successful.
+
+Stack is:
+
+ | ( | 
+ | / | 
+
+
+Pop successful.
+
+Stack is:
+
+ | / | 
+
+
+Push successful.
+
+Stack is:
+
+ | ^ | 
+ | / | 
+
+
+Push successful.
+
+Stack is:
+
+ | ^ | 
+ | ^ | 
+ | / | 
+
+
+Pop successful.
+
+Stack is:
+
+ | ^ | 
+ | / | 
+
+
+Pop successful.
+
+Stack is:
+
+ | / | 
+
+
+Pop successful.
+
+Stack is empty.
+
+Push successful.
+
+Stack is:
+
+ | - | 
+
+
+Push successful.
+
+Stack is:
+
+ | * | 
+ | - | 
+
+
+Pop successful.
+
+Stack is:
+
+ | - | 
+
+
+Pop successful.
+
+Stack is empty.
+
+Push successful.
+
+Stack is:
+
+ | - | 
+
+
+Pop successful.
+
+Stack is empty.
+
+THE POSTFIX EXPRESSION IS:  A B +  C D + E F ^ ^ / D F * - D -
+
+Expression Conversion Menu
+
+1. Infix to Postfix
+2. Infix to Prefix
+3. Evaluate Postfix Expression
+4. Evaluate Prefix Expression
+5. Exit System
+
+Enter the option you want to do: 2
+Enter the infix expression: A+B*C
+
+CONVERTING INFIX TO PREFIX...
+
+Push successful.
+
+Stack is:
+
+ | * | 
+
+
+Pop successful.
+
+Stack is empty.
+
+Push successful.
+
+Stack is:
+
+ | + | 
+
+
+Pop successful.
+
+Stack is empty.
+
+THE PREFIX EXPRESSION IS: + A * B C
+
+Expression Conversion Menu
+
+1. Infix to Postfix
+2. Infix to Prefix
+3. Evaluate Postfix Expression
+4. Evaluate Prefix Expression
+5. Exit System
+
+Enter the option you want to do: 2
+Enter the infix expression: A*B-C
+
+CONVERTING INFIX TO PREFIX...
+
+Push successful.
+
+Stack is:
+
+ | - | 
+
+
+Push successful.
+
+Stack is:
+
+ | * | 
+ | - | 
+
+
+Pop successful.
+
+Stack is:
+
+ | - | 
+
+
+Pop successful.
+
+Stack is empty.
+
+THE PREFIX EXPRESSION IS: - * A B C
+
+Expression Conversion Menu
+
+1. Infix to Postfix
+2. Infix to Prefix
+3. Evaluate Postfix Expression
+4. Evaluate Prefix Expression
+5. Exit System
+
+Enter the option you want to do: 2
+Enter the infix expression: A^B-C
+
+CONVERTING INFIX TO PREFIX...
+
+Push successful.
+
+Stack is:
+
+ | - | 
+
+
+Push successful.
+
+Stack is:
+
+ | ^ | 
+ | - | 
+
+
+Pop successful.
+
+Stack is:
+
+ | - | 
+
+
+Pop successful.
+
+Stack is empty.
+
+THE PREFIX EXPRESSION IS: - ^ A B C
+
+Expression Conversion Menu
+
+1. Infix to Postfix
+2. Infix to Prefix
+3. Evaluate Postfix Expression
+4. Evaluate Prefix Expression
+5. Exit System
+
+Enter the option you want to do: 2
+Enter the infix expression: A+B*C^E
+
+CONVERTING INFIX TO PREFIX...
+
+Push successful.
+
+Stack is:
+
+ | ^ | 
+
+
+Pop successful.
+
+Stack is empty.
+
+Push successful.
+
+Stack is:
+
+ | * | 
+
+
+Pop successful.
+
+Stack is empty.
+
+Push successful.
+
+Stack is:
+
+ | + | 
+
+
+Pop successful.
+
+Stack is empty.
+
+THE PREFIX EXPRESSION IS: + A * B ^ C E
+
+Expression Conversion Menu
+
+1. Infix to Postfix
+2. Infix to Prefix
+3. Evaluate Postfix Expression
+4. Evaluate Prefix Expression
+5. Exit System
+
+Enter the option you want to do: 2
+Enter the infix expression: A-B*C+A
+
+CONVERTING INFIX TO PREFIX...
+
+Push successful.
+
+Stack is:
+
+ | + | 
+
+
+Push successful.
+
+Stack is:
+
+ | * | 
+ | + | 
+
+
+Pop successful.
+
+Stack is:
+
+ | + | 
+
+
+Push successful.
+
+Stack is:
+
+ | - | 
+ | + | 
+
+
+Pop successful.
+
+Stack is:
+
+ | + | 
+
+
+Pop successful.
+
+Stack is empty.
+
+THE PREFIX EXPRESSION IS: + - A * B C A
+
+Expression Conversion Menu
+
+1. Infix to Postfix
+2. Infix to Prefix
+3. Evaluate Postfix Expression
+4. Evaluate Prefix Expression
+5. Exit System
+
+Enter the option you want to do: 2
+Enter the infix expression: A+B+C
+
+CONVERTING INFIX TO PREFIX...
+
+Push successful.
+
+Stack is:
+
+ | + | 
+
+
+Push successful.
+
+Stack is:
+
+ | + | 
+ | + | 
+
+
+Pop successful.
+
+Stack is:
+
+ | + | 
+
+
+Pop successful.
+
+Stack is empty.
+
+THE PREFIX EXPRESSION IS: + + A B C
+
+Expression Conversion Menu
+
+1. Infix to Postfix
+2. Infix to Prefix
+3. Evaluate Postfix Expression
+4. Evaluate Prefix Expression
+5. Exit System
+
+Enter the option you want to do: 2
+Enter the infix expression: A*B/C
+
+CONVERTING INFIX TO PREFIX...
+
+Push successful.
+
+Stack is:
+
+ | / | 
+
+
+Push successful.
+
+Stack is:
+
+ | * | 
+ | / | 
+
+
+Pop successful.
+
+Stack is:
+
+ | / | 
+
+
+Pop successful.
+
+Stack is empty.
+
+THE PREFIX EXPRESSION IS: / * A B C
+
+Expression Conversion Menu
+
+1. Infix to Postfix
+2. Infix to Prefix
+3. Evaluate Postfix Expression
+4. Evaluate Prefix Expression
+5. Exit System
+
+Enter the option you want to do: 2
+Enter the infix expression: A^B^C
+
+CONVERTING INFIX TO PREFIX...
+
+Push successful.
+
+Stack is:
+
+ | ^ | 
+
+
+Pop successful.
+
+Stack is empty.
+
+Push successful.
+
+Stack is:
+
+ | ^ | 
+
+
+Pop successful.
+
+Stack is empty.
+
+THE PREFIX EXPRESSION IS: ^ A ^ B C
+
+Expression Conversion Menu
+
+1. Infix to Postfix
+2. Infix to Prefix
+3. Evaluate Postfix Expression
+4. Evaluate Prefix Expression
+5. Exit System
+
+Enter the option you want to do: 1
+Enter the infix expression: A+B+C
+
+CONVERTING INFIX TO POSTFIX...
+
+Push successful.
+
+Stack is:
+
+ | + | 
+
+
+Pop successful.
+
+Stack is empty.
+
+Push successful.
+
+Stack is:
+
+ | + | 
+
+
+Pop successful.
+
+Stack is empty.
+
+THE POSTFIX EXPRESSION IS: A B + C +
+
+Expression Conversion Menu
+
+1. Infix to Postfix
+2. Infix to Prefix
+3. Evaluate Postfix Expression
+4. Evaluate Prefix Expression
+5. Exit System
+
+Enter the option you want to do: 1
+Enter the infix expression: A*B/C
+
+CONVERTING INFIX TO POSTFIX...
+
+Push successful.
+
+Stack is:
+
+ | * | 
+
+
+Pop successful.
+
+Stack is empty.
+
+Push successful.
+
+Stack is:
+
+ | / | 
+
+
+Pop successful.
+
+Stack is empty.
+
+THE POSTFIX EXPRESSION IS: A B * C /
+
+Expression Conversion Menu
+
+1. Infix to Postfix
+2. Infix to Prefix
+3. Evaluate Postfix Expression
+4. Evaluate Prefix Expression
+5. Exit System
+
+Enter the option you want to do: 1
+Enter the infix expression: A^B^C
+
+CONVERTING INFIX TO POSTFIX...
+
+Push successful.
+
+Stack is:
+
+ | ^ | 
+
+
+Push successful.
+
+Stack is:
+
+ | ^ | 
+ | ^ | 
+
+
+Pop successful.
+
+Stack is:
+
+ | ^ | 
+
+
+Pop successful.
+
+Stack is empty.
+
+THE POSTFIX EXPRESSION IS: A B C ^ ^
+
+Expression Conversion Menu
+
+1. Infix to Postfix
+2. Infix to Prefix
+3. Evaluate Postfix Expression
+4. Evaluate Prefix Expression
+5. Exit System
+
+Enter the option you want to do: 3
+Enter the infix expression: 2+3*(1+5)/6+2*7
+
+CONVERTING INFIX TO POSTFIX...
+
+Push successful.
+
+Stack is:
+
+ | + | 
+
+
+Push successful.
+
+Stack is:
+
+ | * | 
+ | + | 
+
+
+Push successful.
+
+Stack is:
+
+ | ( | 
+ | * | 
+ | + | 
+
+
+Push successful.
+
+Stack is:
+
+ | + | 
+ | ( | 
+ | * | 
+ | + | 
+
+
+Pop successful.
+
+Stack is:
+
+ | ( | 
+ | * | 
+ | + | 
+
+
+Pop successful.
+
+Stack is:
+
+ | * | 
+ | + | 
+
+
+Pop successful.
+
+Stack is:
+
+ | + | 
+
+
+Push successful.
+
+Stack is:
+
+ | / | 
+ | + | 
+
+
+Pop successful.
+
+Stack is:
+
+ | + | 
+
+
+Pop successful.
+
+Stack is empty.
+
+Push successful.
+
+Stack is:
+
+ | + | 
+
+
+Push successful.
+
+Stack is:
+
+ | * | 
+ | + | 
+
+
+Pop successful.
+
+Stack is:
+
+ | + | 
+
+
+Pop successful.
+
+Stack is empty.
+
+THE POSTFIX EXPRESSION IS: 2 3  1 5 + * 6 / + 2 7 * +
+
+EVALUATING POSTFIX EXPRESSION...
+
+Push successful.
+
+Stack is:
+
+ | 2 | 
+
+
+Push successful.
+
+Stack is:
+
+ | 3 | 
+ | 2 | 
+
+
+Push successful.
+
+Stack is:
+
+ | 1 | 
+ | 3 | 
+ | 2 | 
+
+
+Push successful.
+
+Stack is:
+
+ | 5 | 
+ | 1 | 
+ | 3 | 
+ | 2 | 
+
+
+Pop successful.
+
+Stack is:
+
+ | 1 | 
+ | 3 | 
+ | 2 | 
+
+
+Pop successful.
+
+Stack is:
+
+ | 3 | 
+ | 2 | 
+
+
+Push successful.
+
+Stack is:
+
+ | 6 | 
+ | 3 | 
+ | 2 | 
+
+
+Pop successful.
+
+Stack is:
+
+ | 3 | 
+ | 2 | 
+
+
+Pop successful.
+
+Stack is:
+
+ | 2 | 
+
+
+Push successful.
+
+Stack is:
+
+ | 18 | 
+ | 2 | 
+
+
+Push successful.
+
+Stack is:
+
+ | 6 | 
+ | 18 | 
+ | 2 | 
+
+
+Pop successful.
+
+Stack is:
+
+ | 18 | 
+ | 2 | 
+
+
+Pop successful.
+
+Stack is:
+
+ | 2 | 
+
+
+Push successful.
+
+Stack is:
+
+ | 3 | 
+ | 2 | 
+
+
+Pop successful.
+
+Stack is:
+
+ | 2 | 
+
+
+Pop successful.
+
+Stack is empty.
+
+Push successful.
+
+Stack is:
+
+ | 5 | 
+
+
+Push successful.
+
+Stack is:
+
+ | 2 | 
+ | 5 | 
+
+
+Push successful.
+
+Stack is:
+
+ | 7 | 
+ | 2 | 
+ | 5 | 
+
+
+Pop successful.
+
+Stack is:
+
+ | 2 | 
+ | 5 | 
+
+
+Pop successful.
+
+Stack is:
+
+ | 5 | 
+
+
+Push successful.
+
+Stack is:
+
+ | 14 | 
+ | 5 | 
+
+
+Pop successful.
+
+Stack is:
+
+ | 5 | 
+
+
+Pop successful.
+
+Stack is empty.
+
+Push successful.
+
+Stack is:
+
+ | 19 | 
+
+
+ANSWER IS: 19
+
+Expression Conversion Menu
+
+1. Infix to Postfix
+2. Infix to Prefix
+3. Evaluate Postfix Expression
+4. Evaluate Prefix Expression
+5. Exit System
+
+Enter the option you want to do: 4
+Enter the infix expression: 2+3*(1+5)/6+2*7
+
+CONVERTING INFIX TO PREFIX...
+
+Push successful.
+
+Stack is:
+
+ | * | 
+
+
+Pop successful.
+
+Stack is empty.
+
+Push successful.
+
+Stack is:
+
+ | + | 
+
+
+Push successful.
+
+Stack is:
+
+ | / | 
+ | + | 
+
+
+Push successful.
+
+Stack is:
+
+ | ) | 
+ | / | 
+ | + | 
+
+
+Push successful.
+
+Stack is:
+
+ | + | 
+ | ) | 
+ | / | 
+ | + | 
+
+
+Pop successful.
+
+Stack is:
+
+ | ) | 
+ | / | 
+ | + | 
+
+
+Pop successful.
+
+Stack is:
+
+ | / | 
+ | + | 
+
+
+Push successful.
+
+Stack is:
+
+ | * | 
+ | / | 
+ | + | 
+
+
+Pop successful.
+
+Stack is:
+
+ | / | 
+ | + | 
+
+
+Pop successful.
+
+Stack is:
+
+ | + | 
+
+
+Push successful.
+
+Stack is:
+
+ | + | 
+ | + | 
+
+
+Pop successful.
+
+Stack is:
+
+ | + | 
+
+
+Pop successful.
+
+Stack is empty.
+
+THE PREFIX EXPRESSION IS: + + 2 / * 3 + 1 5  6 * 2 7
+EVALUATING PREFIX EXPRESSION...
+
+Push successful.
+
+Stack is:
+
+ | 7 | 
+
+
+Push successful.
+
+Stack is:
+
+ | 2 | 
+ | 7 | 
+
+
+Pop successful.
+
+Stack is:
+
+ | 7 | 
+
+
+Pop successful.
+
+Stack is empty.
+
+Push successful.
+
+Stack is:
+
+ | 14 | 
+
+
+Push successful.
+
+Stack is:
+
+ | 6 | 
+ | 14 | 
+
+
+Push successful.
+
+Stack is:
+
+ | 5 | 
+ | 6 | 
+ | 14 | 
+
+
+Push successful.
+
+Stack is:
+
+ | 1 | 
+ | 5 | 
+ | 6 | 
+ | 14 | 
+
+
+Pop successful.
+
+Stack is:
+
+ | 5 | 
+ | 6 | 
+ | 14 | 
+
+
+Pop successful.
+
+Stack is:
+
+ | 6 | 
+ | 14 | 
+
+
+Push successful.
+
+Stack is:
+
+ | 6 | 
+ | 6 | 
+ | 14 | 
+
+
+Push successful.
+
+Stack is:
+
+ | 3 | 
+ | 6 | 
+ | 6 | 
+ | 14 | 
+
+
+Pop successful.
+
+Stack is:
+
+ | 6 | 
+ | 6 | 
+ | 14 | 
+
+
+Pop successful.
+
+Stack is:
+
+ | 6 | 
+ | 14 | 
+
+
+Push successful.
+
+Stack is:
+
+ | 18 | 
+ | 6 | 
+ | 14 | 
+
+
+Pop successful.
+
+Stack is:
+
+ | 6 | 
+ | 14 | 
+
+
+Pop successful.
+
+Stack is:
+
+ | 14 | 
+
+
+Push successful.
+
+Stack is:
+
+ | 3 | 
+ | 14 | 
+
+
+Push successful.
+
+Stack is:
+
+ | 2 | 
+ | 3 | 
+ | 14 | 
+
+
+Pop successful.
+
+Stack is:
+
+ | 3 | 
+ | 14 | 
+
+
+Pop successful.
+
+Stack is:
+
+ | 14 | 
+
+
+Push successful.
+
+Stack is:
+
+ | 5 | 
+ | 14 | 
+
+
+Pop successful.
+
+Stack is:
+
+ | 14 | 
+
+
+Pop successful.
+
+Stack is empty.
+
+Push successful.
+
+Stack is:
+
+ | 19 | 
+
+
+ANSWER IS: 19
+Expression Conversion Menu
+
+1. Infix to Postfix
+2. Infix to Prefix
+3. Evaluate Postfix Expression
+4. Evaluate Prefix Expression
+5. Exit System
+
+Enter the option you want to do: 2
+Enter the infix expression: A&B#C
+
+CONVERTING INFIX TO PREFIX...
+Invalid character detected. The infix to prefix converter only handles '(){}[]' brackets and alpha-numeric characters without spaces.
+
+Please re-enter correct expression.
+
+Expression Conversion Menu
+
+1. Infix to Postfix
+2. Infix to Prefix
+3. Evaluate Postfix Expression
+4. Evaluate Prefix Expression
+5. Exit System
+
+Enter the option you want to do: 1
+Enter the infix expression: A&<B#c>
+
+CONVERTING INFIX TO POSTFIX...
+Invalid character detected. The infix to postfix converter only handles '(){}[]' brackets and alpha-numeric characters without spaces.
+
+Please re-enter correct expression.
+
+Expression Conversion Menu
+
+1. Infix to Postfix
+2. Infix to Prefix
+3. Evaluate Postfix Expression
+4. Evaluate Prefix Expression
+5. Exit System
+
+Enter the option you want to do: 5
+
+Exiting...
