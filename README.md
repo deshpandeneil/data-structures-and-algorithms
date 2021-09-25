@@ -1,4 +1,5 @@
 # data-structures-and-algorithms
+This repository contains my solutions to the DSAL assignments mentioned in the SPPU curriculum of B.E. IT (2019 Pattern) along with a few more supplementary pieces of code. 
 
 ### Assignment 1 - Searching and Sorting
 Consider a student database of SEIT class (at least 15 records) . Database contains different fields of every student like Roll No, Name and SGPA.(array of structure)
